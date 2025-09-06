@@ -1,0 +1,120 @@
+import type { Product } from './types';
+
+export const CATEGORIES = [
+  'Electronics',
+  'Fashion',
+  'Home & Garden',
+  'Books',
+  'Toys & Games',
+  'Sports & Outdoors',
+];
+
+export const MOCK_PRODUCTS: Product[] = [
+  {
+    id: '1',
+    title: 'Vintage Leather Jacket',
+    description: 'A stylish and durable vintage leather jacket, perfect for all seasons. Minor wear and tear adds to its character.',
+    category: 'Fashion',
+    price: 75.0,
+    imageUrls: [
+      'https://picsum.photos/seed/jacket/800/600',
+      'https://picsum.photos/seed/jacket_front/800/600',
+      'https://picsum.photos/seed/jacket_back/800/600',
+    ],
+    sellerId: 'user2',
+    sellerName: 'Jane Doe',
+  },
+  {
+    id: '2',
+    title: 'Acoustic Guitar',
+    description: 'Well-maintained acoustic guitar with a rich, warm tone. Comes with a soft case and a few picks. Ideal for beginners.',
+    category: 'Toys & Games',
+    price: 120.0,
+    imageUrls: [
+      'https://picsum.photos/seed/guitar/800/600',
+      'https://picsum.photos/seed/guitar_close/800/600',
+      'https://picsum.photos/seed/guitar_case/800/600',
+    ],
+    sellerId: 'user1',
+    sellerName: 'John Doe',
+  },
+  {
+    id: '3',
+    title: 'Mid-Century Modern Armchair',
+    description: 'Elegant armchair with classic mid-century design. Solid wood frame and comfortable upholstery. A statement piece for any living room.',
+    category: 'Home & Garden',
+    price: 250.0,
+    imageUrls: [
+      'https://picsum.photos/seed/armchair/800/600',
+      'https://picsum.photos/seed/armchair_side/800/600',
+    ],
+    sellerId: 'user2',
+    sellerName: 'Jane Doe',
+  },
+  {
+    id: '4',
+    title: 'Portable Bluetooth Speaker',
+    description: 'Compact and powerful Bluetooth speaker with long battery life. Water-resistant and perfect for travel or outdoor use.',
+    category: 'Electronics',
+    price: 45.0,
+    imageUrls: [
+      'https://picsum.photos/seed/speaker/800/600',
+      'https://picsum.photos/seed/speaker_top/800/600',
+      'https://picsum.photos/seed/speaker_box/800/600',
+    ],
+    sellerId: 'user1',
+    sellerName: 'John Doe',
+  },
+  {
+    id: '5',
+    title: 'The Lord of the Rings Trilogy',
+    description: 'Box set of the classic fantasy trilogy by J.R.R. Tolkien. Paperback editions in very good condition.',
+    category: 'Books',
+    price: 20.0,
+    imageUrls: [
+      'https://picsum.photos/seed/books/800/600',
+    ],
+    sellerId: 'user2',
+    sellerName: 'Jane Doe',
+  },
+  {
+    id: '6',
+    title: 'Professional Tennis Racket',
+    description: 'High-performance tennis racket suitable for intermediate to advanced players. Recently re-strung and includes a cover.',
+    category: 'Sports & Outdoors',
+    price: 90.0,
+    imageUrls: [
+      'https://picsum.photos/seed/racket/800/600',
+      'https://picsum.photos/seed/racket_strings/800/600',
+    ],
+    sellerId: 'user1',
+    sellerName: 'John Doe',
+  },
+  {
+    id: '7',
+    title: 'Espresso Machine',
+    description: 'Semi-automatic espresso machine that pulls great shots. Includes portafilter and tamper. Perfect for the home barista.',
+    category: 'Home & Garden',
+    price: 180.0,
+    imageUrls: [
+      'https://picsum.photos/seed/espresso/800/600',
+      'https://picsum.photos/seed/espresso_shot/800/600',
+      'https://picsum.photos/seed/espresso_tamper/800/600',
+    ],
+    sellerId: 'user2',
+    sellerName: 'Jane Doe',
+  },
+  {
+    id: '8',
+    title: 'Designer Sunglasses',
+    description: 'Authentic designer sunglasses with UV protection. Comes with original case and cleaning cloth. No scratches on lenses.',
+    category: 'Fashion',
+    price: 110.0,
+    imageUrls: [
+      'https://picsum.photos/seed/sunglasses/800/600',
+      'https://picsum.photos/seed/sunglasses_case/800/600',
+    ],
+    sellerId: 'user1',
+    sellerName: 'John Doe',
+  },
+];
